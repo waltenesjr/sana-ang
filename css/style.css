@@ -136,7 +136,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: #2a4f31;
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -391,7 +391,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu > .menu-active > a {
-  color: #35633e;
+  color: #85a18b;
 }
 
 .nav-menu > li {
@@ -601,15 +601,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #featured-services {
-  background: #000;
+  background-image: linear-gradient(0deg, #5d8264 0%, #85a18b 50%, #5d8264 100%);
 }
 
 #featured-services .box {
   padding: 30px 20px;
+  background-image: linear-gradient(0deg, #5d8264 0%, #85a18b 50%, #5d8264 100%);
 }
 
 #featured-services .box-bg {
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+  background-image: linear-gradient(0deg, #497251 0%, #9ab19e 50%, #497251 100%);
 }
 
 #featured-services i {
@@ -1355,14 +1356,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #000;
+  background: #2a4f31;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #111;
+  background: #2a4f31;
   padding: 60px 0 30px 0;
 }
 
