@@ -601,16 +601,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #featured-services {
-  background-image: linear-gradient(0deg, #5d8264 0%, #85a18b 50%, #5d8264 100%);
+  background-image: linear-gradient(0deg, #b9c9ba 0%, #dbe4dc 50%, #b9c9ba 100%);
 }
 
 #featured-services .box {
   padding: 30px 20px;
-  background-image: linear-gradient(0deg, #5d8264 0%, #85a18b 50%, #5d8264 100%);
+  background-image: linear-gradient(0deg, #b9c9ba 0%, #dbe4dc 50%, #b9c9ba 100%);
 }
 
 #featured-services .box-bg {
-  background-image: linear-gradient(0deg, #497251 0%, #9ab19e 50%, #497251 100%);
+  background-image: linear-gradient(0deg, #97ae99 0%, #b9c9ba 50%, #97ae99 100%);
 }
 
 #featured-services i {
