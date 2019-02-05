@@ -36,7 +36,7 @@
                 "   <div class=\"carousel-background\"><img src=\"" + this.imagem + "\" alt=\"\"></div>\n" +
                 "      <div class=\"carousel-container\">\n" +
                 "          <div class=\"carousel-content\">\n" +
-                "             <h2>" + this.titulo + "</h2>\n" +
+                "             <h1>" + this.titulo + "</h1>\n" +
                 "             <p>" + this.descricao + "</p>\n" +
                 "             <a href=\"" + this.link + "\" class=\"btn-get-started scrollto\">Saiba mais</a>\n" +
                 "          </div>\n" +
@@ -51,7 +51,7 @@
                 "   <div class=\"carousel-background\"><img src=\"" + this.imagem + "\" alt=\"\"></div>\n" +
                 "      <div class=\"carousel-container\">\n" +
                 "          <div class=\"carousel-content\">\n" +
-                "             <h2>" + this.titulo + "</h2>\n" +
+                "             <h1>" + this.titulo + "</h1>\n" +
                 "             <p>" + this.descricao + "</p>\n" +
                 "             <a href=\"" + this.link + "\" class=\"btn-get-started scrollto\">Saiba mais</a>\n" +
                 "          </div>\n" +
