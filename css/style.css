@@ -1533,11 +1533,21 @@ body.mobile-nav-active #mobile-nav-toggle {
         border-left: 1px solid #ddd;
         border-right: 1px solid #ddd;
     }
+
+    #slide-carousel h1 {
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 992px) {
     #testimonials .testimonial-item p {
         width: 80%;
+    }
+
+    #slide-carousel h1 {
+        font-weight: bold;
+        font-size: 40px;
     }
 }
 
@@ -1557,6 +1567,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
     #nav-menu-container {
         padding-right: 60px;
+    }
+
+    #slide-carousel h1 {
+        font-weight: bold;
+        font-size: 50px;
     }
 }
 
@@ -1583,5 +1598,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
     #mobile-nav-toggle {
         display: inline;
+    }
+
+    #slide-carousel h1 {
+        font-weight: bold;
+        font-size: 30px;
     }
 }
