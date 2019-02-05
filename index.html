@@ -103,8 +103,6 @@
             </ul>
           </li>-->
           <li><a href="#contact">Contato</a></li>
-          <li><a href="#contact"><i class="fa fa-whatsapp"></i></a></li>
-
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -119,53 +117,8 @@
 
         <ol class="carousel-indicators"></ol>
 
-        <div class="carousel-inner" role="listbox">
-
-          <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Poços de monitoramento</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Saiba mais</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Execução de PRAD</h2>
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Saiba mais</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Plantio de muda</h2>
-                <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Saiba mais</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Licenças ambientais</h2>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Saiba mais</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
+        <!-- Carousel montado no jquery slide.js -->
+        <div id="slide-carousel" class="carousel-inner" role="listbox"></div>
 
         <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
@@ -188,7 +141,7 @@
     ============================-->
     <section id="featured-services">
       <div class="container">
-        <div class="row">
+        <div id="pre-services" class="row">
 
           <div class="col-lg-4 box">
             <i class="ion-ios-bookmarks-outline"></i>
@@ -218,8 +171,9 @@
     <section id="about">
       <div class="container">
 
-        <header class="section-header">
-          <h3>SanAmbiental</h3>
+        <header class="section-header text-center">
+          <img src="img/logo-escuro.png"/><br/><br/>
+          <!--<h3>SanAmbiental</h3>-->
           <p>A Sanambiental surgiu no segmento de consultorias e projetos ambientais em pleno séc XXI trazendo uma nova visão, estratégias totalmente inovadoras para o mercado com o intuito de elaborar e executar planos e projetos ambientais nunca ouados, repleto de conhecimento tecnológicos inovadores e muita prática.</p>
         </header>
 
@@ -906,7 +860,7 @@
     </div>
   </footer><!-- #footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <a target="_blank" href="http://whatsapp.sanambiental.com.br" class="back-to-top"><i class="fa fa-whatsapp"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
   <!-- <div id="preloader"></div> -->
 
@@ -929,6 +883,7 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/slide.js"></script>
 
 </body>
 </html>

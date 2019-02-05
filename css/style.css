@@ -50,13 +50,10 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #35633e;
-  color: #fff;
-  width: 44px;
-  height: 44px;
+  color: #35633e;
   text-align: center;
   line-height: 1;
-  font-size: 16px;
+  font-size: 40px;
   border-radius: 50%;
   right: 15px;
   bottom: 15px;
@@ -65,8 +62,9 @@ h6 {
 }
 
 .back-to-top i {
+  font-size: 40px;
   padding-top: 12px;
-  color: #fff;
+  color: #35633e;
 }
 
 /* Prelaoder */
