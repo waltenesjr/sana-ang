@@ -1513,6 +1513,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #ddd;
 }
 
+#slide-carousel h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
