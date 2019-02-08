@@ -549,8 +549,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 /* Sections Header
---------------------------------*/
-
+------------------------------------------------*/
+.section-header h3 {
+    font-size: 28px;
+    color: #35633e;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+}
 .section-header h1 {
     font-size: 32px;
     color: #35633e;
@@ -768,7 +776,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .title a {
-    color: #111;
+    color: #35633e;
 }
 
 #services .box:hover .title a {
@@ -1530,10 +1538,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         padding: 20px 0;
     }
 
-    #contact .contact-phone {
-        border-left: 1px solid #ddd;
-        border-right: 1px solid #ddd;
-    }
+
 
     #slide-carousel h1 {
         font-weight: bold;
