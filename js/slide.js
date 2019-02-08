@@ -4,25 +4,25 @@
     var slides = [
         {
             titulo: "Poços de monitoramento",
-            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            descricao: "Entre em contato com a SanAmbiental e faça seu orçamento!",
             link: "#services",
             imagem: "img/intro-carousel/1.jpg"
         },
         {
             titulo: "Execução de PRAD",
-            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            descricao: "Entre em contato com a SanAmbiental e faça seu orçamento!",
             link: "#services",
             imagem: "img/intro-carousel/2.jpg"
         },
         {
             titulo: "Plantio de muda",
-            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            descricao: "Entre em contato com a SanAmbiental e faça seu orçamento!",
             link: "#services",
             imagem: "img/intro-carousel/3.jpg"
         },
         {
             titulo: "Licenças ambientais",
-            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            descricao: "Entre em contato com a SanAmbiental e faça seu orçamento!",
             link: "#services",
             imagem: "img/intro-carousel/4.jpg"
         }
@@ -38,7 +38,10 @@
                 "          <div class=\"carousel-content\">\n" +
                 "             <h1>" + this.titulo + "</h1>\n" +
                 "             <p>" + this.descricao + "</p>\n" +
-                "             <a href=\"" + this.link + "\" class=\"btn-get-started scrollto\">Saiba mais</a>\n" +
+                "             <a target=\"_blank\" href=\"https://whatsapp.sanambiental.com.br\" class=\"contato-rede-social\"><i class=\"fa fa-whatsapp\"></i></a>" +
+                "             <a target=\"_blank\" href=\"tel:+5562991140786\" class=\"contato-rede-social\"><i class=\"fa fa-phone\"></i></a>" +
+                "             <a target=\"_blank\" href=\"mailto:contato@sanambiental.com.br\" class=\"contato-rede-social\"><i class=\"fa fa-envelope-o\"></i></a>" +
+                // "             <a href=\"" + this.link + "\" class=\"btn-get-started scrollto\">Saiba mais</a>\n" +
                 "          </div>\n" +
                 "      </div>\n" +
                 "   </div>\n" +
@@ -53,7 +56,10 @@
                 "          <div class=\"carousel-content\">\n" +
                 "             <h1>" + this.titulo + "</h1>\n" +
                 "             <p>" + this.descricao + "</p>\n" +
-                "             <a href=\"" + this.link + "\" class=\"btn-get-started scrollto\">Saiba mais</a>\n" +
+                "             <a target=\"_blank\" href=\"https://whatsapp.sanambiental.com.br\" class=\"contato-rede-social\"><i class=\"fa fa-whatsapp\"></i></a>" +
+                "             <a target=\"_blank\" href=\"tel:+5562991140786\" class=\"contato-rede-social\"><i class=\"fa fa-phone\"></i></a>" +
+                "             <a target=\"_blank\" href=\"mailto:contato@sanambiental.com.br\" class=\"contato-rede-social\"><i class=\"fa fa-envelope-o\"></i></a>" +
+                // "             <a href=\"" + this.link + "\" class=\"btn-get-started scrollto\">Saiba mais</a>\n" +
                 "          </div>\n" +
                 "      </div>\n" +
                 "   </div>\n" +

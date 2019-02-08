@@ -46,6 +46,12 @@ h6 {
     color: #fff;
 }
 
+.contato-rede-social {
+    font-size: 60px;
+    color: #fff !important;
+    padding: 15px;
+}
+
 /* Back to top button */
 
 .back-to-top {
