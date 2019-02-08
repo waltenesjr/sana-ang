@@ -46,6 +46,12 @@ h6 {
     color: #fff;
 }
 
+.desc-contato {
+    color: #35633e !important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
 .contato-rede-social {
     font-size: 60px;
     color: #fff !important;
@@ -1448,7 +1454,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top h4::after {
-    background: #35633e;
+    background: #fff;
     width: 60px;
 }
 
