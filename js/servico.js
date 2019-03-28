@@ -215,7 +215,7 @@
     } else {
         $.each(slides, function () {
             if (this.id === servicoParam) {
-                document.title = this.titulo;
+                document.title = this.titulo + " | Sanambiental.com.br";
                 return;
             }
         });
