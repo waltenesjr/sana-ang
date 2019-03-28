@@ -186,6 +186,8 @@
         }
     ];
 
+    var url = "https://sanambiental.com.br/novo/";
+
     var getUrlParameter = function getUrlParameter(sParam) {
         var sPageURL = window.location.search.substring(1),
             sURLVariables = sPageURL.split('&'),
@@ -217,14 +219,14 @@
             if (this.id === servicoParam) {
                 document.title = this.titulo + " | Sanambiental.com.br";
 
-                $("meta[name='title']").attr("content", this.title);
+                $("meta[name='title']").attr("content", this.titulo);
                 $("meta[name='description']").attr("content", this.descricao);
 
-                $("meta[property='og\\:title']").attr("content", this.title);
+                $("meta[property='og\\:title']").attr("content", this.titulo);
                 $("meta[property='og\\:description']").attr("content", this.descricao);
-                $("meta[property='og\\:image']").attr("content", this.imagem);
+                $("meta[property='og\\:image']").attr("content", url + this.imagem);
 
-                $("meta[name='msapplication-TileImage']").attr("content", this.imagem);
+                $("meta[name='msapplication-TileImage']").attr("content", url + this.imagem);
 
                 return;
             }
