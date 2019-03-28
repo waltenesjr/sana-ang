@@ -204,11 +204,11 @@
     var servicoParam = getUrlParameter('servico');
 
     if (servicoParam === undefined) {
-        $.each(slides, function () {
+        $.each(slides, function () {""
             $("#servicos").append(
                 "<div class=\"col-lg-4 col-md-6 box wow bounceInUp\" data-wow-duration=\"1.4s\">" +
                     "<div class=\"icon\"><img src=\"" + this.imagem + "\"></div>" +
-                    "<h4 class=\"title\"><a href=\"https://www.sanambiental.com.br/novo/servico.html?servico=" + this.id + "\">" + this.titulo + "\"</a></h4>" +
+                    "<h4 class=\"title\"><a href=\"https://www.sanambiental.com.br/novo/servico.html?servico=" + this.id + "\">" + this.titulo + "</a></h4>" +
                 "</div>"
             );
         });
