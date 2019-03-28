@@ -216,6 +216,16 @@
         $.each(slides, function () {
             if (this.id === servicoParam) {
                 document.title = this.titulo + " | Sanambiental.com.br";
+
+                $("meta[name='title']").attr("content", this.title);
+                $("meta[name='description']").attr("content", this.descricao);
+
+                $("meta[property='og\\:title']").attr("content", this.title);
+                $("meta[property='og\\:description']").attr("content", this.descricao);
+                $("meta[property='og\\:image']").attr("content", this.imagem);
+
+                $("meta[name='msapplication-TileImage']").attr("content", this.imagem);
+
                 return;
             }
         });
