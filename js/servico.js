@@ -204,7 +204,7 @@
     var servicoParam = getUrlParameter('servico');
 
     if (servicoParam === undefined) {
-        $.each(slides, function () {""
+        $.each(slides, function () {
             $("#servicos").append(
                 "<div class=\"col-lg-4 col-md-6 box wow bounceInUp\" data-wow-duration=\"1.4s\">" +
                     "<div class=\"icon\"><img src=\"" + this.imagem + "\"></div>" +
