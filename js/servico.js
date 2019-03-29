@@ -186,8 +186,8 @@
         }
     ];
 
-    //var url = "https://sanambiental.com.br/novo/";
-    var url = "http://localhost:63342/sana-web/";
+    var url = "https://sanambiental.com.br/novo/";
+    //var url = "http://localhost:63342/sana-web/";
 
     var getUrlParameter = function getUrlParameter(sParam) {
         var sPageURL = window.location.search.substring(1),
