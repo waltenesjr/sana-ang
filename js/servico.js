@@ -186,7 +186,8 @@
         }
     ];
 
-    var url = "https://sanambiental.com.br/novo/";
+    //var url = "https://sanambiental.com.br/novo/";
+    var url = "http://localhost:63342/sana-web/";
 
     var getUrlParameter = function getUrlParameter(sParam) {
         var sPageURL = window.location.search.substring(1),
@@ -210,7 +211,7 @@
             $("#servicos").append(
                 "<div class=\"col-lg-4 col-md-6 box wow bounceInUp\" data-wow-duration=\"1.4s\">" +
                     "<div class=\"icon\"><img src=\"" + this.imagem + "\"></div>" +
-                    "<h4 class=\"title\"><a href=\"https://www.sanambiental.com.br/novo/servico.html?servico=" + this.id + "\">" + this.titulo + "</a></h4>" +
+                    "<h4 class=\"title\"><a href=\"" + url + "servico.html?servico=" + this.id + "\">" + this.titulo + "</a></h4>" +
                 "</div>"
             );
         });
@@ -218,6 +219,22 @@
         $.each(slides, function () {
             if (this.id === servicoParam) {
                 document.title = this.titulo + " | Sanambiental.com.br";
+
+                $("#desc-servico").append(
+                    "<div class='text-center'>" +
+                        "<br>" +
+                        "<a href=\"https://www.sanambiental.com.br\"><img src=\"img/logo-escuro.png\" alt=\"\" title=\"\" width=\"130\" height=\"38\"/></a>" +
+                        "<br><br>" +
+                        "<img src=\"" + this.imagem + "\" alt=\"" + this.title + "\">" +
+                        "<h1 class=\"titulo-servico\">" + this.titulo + "</h1>" +
+                    "</div>" +
+                    "<br>" +
+                    "<p>" + this.descricao + "</p>" +
+                    "<br>" +
+                    "<div class='text-center'>" +
+                        "<a class=\"botao-voltar\" href=\"" + url + "index.html#services\">Voltar</a>" +
+                    "</div>"
+                );
 
                 $("meta[name='title']").attr("content", this.titulo);
                 $("meta[name='description']").attr("content", this.descricao);

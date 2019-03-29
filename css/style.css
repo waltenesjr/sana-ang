@@ -46,6 +46,24 @@ h6 {
     color: #fff;
 }
 
+.botao-voltar {
+    background: #35633e;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff !important;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.titulo-servico {
+    font-size: 32px;
+    color: #35633e;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+}
+
 .desc-contato {
     color: #35633e !important;
     font-family: "Montserrat", sans-serif;
