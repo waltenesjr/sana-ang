@@ -225,7 +225,7 @@
                         "<br>" +
                         "<a href=\"https://www.sanambiental.com.br\"><img src=\"img/logo-escuro.png\" alt=\"\" title=\"\" width=\"130\" height=\"38\"/></a>" +
                         "<br><br>" +
-                        "<img src=\"" + this.imagem + "\" alt=\"" + this.title + "\">" +
+                        "<img src=\"" + this.imagem + "\" alt=\"" + this.titulo + "\">" +
                         "<h1 class=\"titulo-servico\">" + this.titulo + "</h1>" +
                     "</div>" +
                     "<br>" +
@@ -233,6 +233,10 @@
                     "<br>" +
                     "<div class='text-center'>" +
                         "<a class=\"botao-voltar\" href=\"" + url + "index.html#services\">Voltar</a>" +
+                        "<br><br>" +
+                        "<a target=\"_blank\" href=\"https://whatsapp.sanambiental.com.br\" class=\"contato-rede-social\"><i style=\"color: #35633e\" class=\"fa fa-whatsapp\"></i></a>" +
+                        "<a target=\"_blank\" href=\"tel:+5562991140786\" class=\"contato-rede-social\"><i style=\"color: #35633e\" class=\"fa fa-phone\"></i></a>" +
+                        "<a target=\"_blank\" href=\"mailto:contato@sanambiental.com.br\" class=\"contato-rede-social\"><i style=\"color: #35633e\" class=\"fa fa-envelope-o\"></i></a>" +
                     "</div>"
                 );
 

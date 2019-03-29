@@ -53,6 +53,7 @@ h6 {
     color: #fff !important;
     transition: 0.4s;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .titulo-servico {
@@ -1384,6 +1385,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
     transition: 0.4s;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 #contact .form button[type="submit"]:hover {
