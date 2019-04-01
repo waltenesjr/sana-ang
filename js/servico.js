@@ -251,15 +251,15 @@
                 $("meta[name='twitter:url']").attr("content", uri);
                 $("meta[name='twitter:title']").attr("content", document.title);
                 $("meta[name='twitter:description']").attr("content", desc);
-                $("meta[name='twitter:image']").attr("content", url + this.imagem);
+                $("meta[name='twitter:image']").attr("content", url + "img/logo-escuro.png");
 
                 /* Tags Facebook */
                 $("meta[property='og\\:title']").attr("content", document.title);
                 $("meta[property='og\\:description']").attr("content", desc);
-                $("meta[property='og\\:image']").attr("content", url + this.imagem);
+                $("meta[property='og\\:image']").attr("content", url + "img/logo-escuro.png");
                 $("meta[property='og\\:url']").attr("content", uri);
 
-                $("meta[name='msapplication-TileImage']").attr("content", url + this.imagem);
+                $("meta[name='msapplication-TileImage']").attr("content", url + "img/logo-escuro.png");
 
                 return;
             }
