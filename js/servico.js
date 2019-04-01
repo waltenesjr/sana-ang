@@ -223,7 +223,7 @@
                 $("#desc-servico").append(
                     "<div class='text-center'>" +
                         "<br>" +
-                        "<a href=\"https://www.sanambiental.com.br\"><img src=\"img/logo-escuro.png\" alt=\"\" title=\"\" width=\"130\" height=\"38\"/></a>" +
+                        "<a href=\"https://www.sanambiental.com.br\"><img src=\"img/logo-escuro.png\" alt=\"consultoria ambiental\" title=\"\" width=\"130\" height=\"38\"/></a>" +
                         "<br><br>" +
                         "<img src=\"" + this.imagem + "\" alt=\"" + this.titulo + "\">" +
                         "<h1 class=\"titulo-servico\">" + this.titulo + "</h1>" +
@@ -240,12 +240,24 @@
                     "</div>"
                 );
 
-                $("meta[name='title']").attr("content", this.titulo);
-                $("meta[name='description']").attr("content", this.descricao);
+                var desc = this.descricao.substring(0, 271);
+                var uri = url + "servico.html?servico=" + this.id;
 
-                $("meta[property='og\\:title']").attr("content", this.titulo);
-                $("meta[property='og\\:description']").attr("content", this.descricao);
+                $("meta[name='title']").attr("content", document.title);
+                $("meta[name='description']").attr("content", desc);
+                $("meta[name='url']").attr("content", uri);
+
+                /* Tags Twitter */
+                $("meta[name='twitter:url']").attr("content", uri);
+                $("meta[name='twitter:title']").attr("content", document.title);
+                $("meta[name='twitter:description']").attr("content", desc);
+                $("meta[name='twitter:image']").attr("content", url + this.imagem);
+
+                /* Tags Facebook */
+                $("meta[property='og\\:title']").attr("content", document.title);
+                $("meta[property='og\\:description']").attr("content", desc);
                 $("meta[property='og\\:image']").attr("content", url + this.imagem);
+                $("meta[property='og\\:url']").attr("content", uri);
 
                 $("meta[name='msapplication-TileImage']").attr("content", url + this.imagem);
 
