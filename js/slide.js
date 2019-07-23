@@ -9,7 +9,7 @@
             imagem: "img/intro-carousel/1.jpg"
         },
         {
-            titulo: "Execução de PRAD",
+            titulo: "PLANO DE RECUPERAÇÃO DE ÁREAS DEGRADADAS (PRAD)",
             descricao: "Entre em contato com a SanAmbiental e faça seu orçamento!",
             link: "#services",
             imagem: "img/intro-carousel/2.jpg"
