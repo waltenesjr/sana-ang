@@ -273,7 +273,6 @@
         $.each(slides, function () {
             if (this.id === servicoParam) {
                 document.title = this.titulo + " | Sanambiental.com.br";
-
                 $("#desc-servico").append(
                     "<div class='text-center'>" +
                         "<br>" +
