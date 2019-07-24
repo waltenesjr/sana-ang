@@ -179,13 +179,13 @@
             imagem: "img/icon/piscicultura.png"
         },*/
 
-        {
+        /*{
             id: "21",
             titulo: "Execução de PRAD / Plantio de Mudas",
             descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat diam vitae rhoncus convallis. Vestibulum porttitor, leo vel varius luctus, purus sapien consectetur ipsum, sit amet aliquet enim nunc commodo nisl. Aenean dolor erat, ultrices non gravida sed, suscipit ut ex. Mauris pretium luctus lectus ut tristique. Praesent ornare finibus orci, a faucibus sapien hendrerit et. Proin non est porttitor velit tincidunt sagittis. Cras eget porta lectus, sed faucibus odio. Phasellus lobortis, nibh quis aliquam suscipit, lacus ex hendrerit ex, vel bibendum felis sapien sed massa. Sed sagittis diam nulla, ut volutpat mi efficitur eget. ",
             link: "#services",
             imagem: "img/icon/prad.png"
-        },
+        },*/
 
         {
             id: "22",
@@ -194,7 +194,7 @@
                 "e contém o planejamento das ações que objetivam o retorno do sítio degradado a uma forma de utilização, de acordo com um plano pré-estabelecido para o uso do solo, " +
                 "visando a obtenção da estabilidade do meio ambiente e ecológica. É relacionado à atividades que envolvem supressão vegetal, terraplenagem, exploração de jazidas, " +
                 "além da recuperação de APP (Área de Preservação Permanente) e de RL (Reserva Legal).",
-            link: "#services",
+            link: "https://sanambiental.com.br/novo/prad.html",
             imagem: "img/icon/recuperacao-area-degradada.png"
         }
 
@@ -253,12 +253,21 @@
 
     if (servicoParam === undefined) {
         $.each(slides, function () {
-            $("#servicos").append(
-                "<div class=\"col-lg-4 col-md-6 box wow bounceInUp\" data-wow-duration=\"1.4s\">" +
+            if (this.id == 22) {
+                $("#servicos").append(
+                    "<div class=\"col-lg-4 col-md-6 box wow bounceInUp\" data-wow-duration=\"1.4s\">" +
+                    "<div class=\"icon\"><img src=\"" + this.imagem + "\"></div>" +
+                    "<h4 class=\"title\"><a href=\"" + this.link + "\">" + this.titulo + "</a></h4>" +
+                    "</div>"
+                );
+            } else {
+                $("#servicos").append(
+                    "<div class=\"col-lg-4 col-md-6 box wow bounceInUp\" data-wow-duration=\"1.4s\">" +
                     "<div class=\"icon\"><img src=\"" + this.imagem + "\"></div>" +
                     "<h4 class=\"title\"><a href=\"" + url + "servico.html?servico=" + this.id + "\">" + this.titulo + "</a></h4>" +
-                "</div>"
-            );
+                    "</div>"
+                );
+            }
         });
     } else {
         $.each(slides, function () {
