@@ -3,26 +3,26 @@
 
     var slides = [
         {
-            titulo: "Poços de monitoramento",
-            descricao: "Entre em contato com a SanAmbiental e faça seu orçamento!",
+            titulo: "POSTOS DE COMBUSTÍVEIS",
+            descricao: "Vem com a Sana, solicite-nos um orçamento.",
             link: "#services",
             imagem: "img/intro-carousel/1.jpg"
         },
         {
             titulo: "PLANO DE RECUPERAÇÃO DE ÁREAS DEGRADADAS (PRAD)",
-            descricao: "Entre em contato com a SanAmbiental e faça seu orçamento!",
+            descricao: "Vem com a Sana, solicite-nos um orçamento.",
             link: "#services",
             imagem: "img/intro-carousel/2.jpg"
         },
         {
-            titulo: "Plantio de muda",
-            descricao: "Entre em contato com a SanAmbiental e faça seu orçamento!",
+            titulo: "EXECUÇÃO DE PRAD / PLANTIO DE MUDAS",
+            descricao: "Vem com a Sana, solicite-nos um orçamento.",
             link: "#services",
             imagem: "img/intro-carousel/3.jpg"
         },
         {
-            titulo: "Licenças ambientais",
-            descricao: "Entre em contato com a SanAmbiental e faça seu orçamento!",
+            titulo: "LICENCIAMENTO AMBIENTAL",
+            descricao: "Vem com a Sana, solicite-nos um orçamento.",
             link: "#services",
             imagem: "img/intro-carousel/4.jpg"
         }

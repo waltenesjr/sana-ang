@@ -93,7 +93,7 @@
             id: "10",
             titulo: "MINERAÇÃO",
             descricao: "",
-            link: "https://sanambiental.com.br/novo/mineracao.html",
+            link: "https://sanambiental.com.br/mineracao.html",
             imagem: "img/icon/mineracao.png"
         },
 
@@ -207,7 +207,7 @@
                 "planejamento das ações que objetivam o retorno do sítio degradado a uma forma de utilização, de acordo com um plano pré-estabelecido para o uso do solo, " +
                 "visando a obtenção da estabilidade do meio ambiente e ecológica. É relacionado à atividades que envolvem supressão vegetal, terraplenagem, exploração de " +
                 "jazidas, além da recuperação de APP (Área de Preservação Permanente) e de RL (Reserva Legal).",
-            link: "https://sanambiental.com.br/novo/prad.html",
+            link: "https://sanambiental.com.br/prad.html",
             imagem: "img/icon/recuperacao-area-degradada.png"
         },
 
@@ -252,7 +252,7 @@
         }
     ];
 
-    var url = "https://sanambiental.com.br/novo/";
+    var url = "https://sanambiental.com.br/";
     //var url = "http://localhost:63342/sana-web/";
 
     var getUrlParameter = function getUrlParameter(sParam) {
