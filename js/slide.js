@@ -3,6 +3,12 @@
 
     var slides = [
         {
+            titulo: "LICENCIAMENTO AMBIENTAL",
+            descricao: "Vem com a Sana, solicite-nos um orçamento.",
+            link: "#services",
+            imagem: "img/intro-carousel/4.jpg"
+        },
+        {
             titulo: "POSTOS DE COMBUSTÍVEIS",
             descricao: "Vem com a Sana, solicite-nos um orçamento.",
             link: "#services",
@@ -19,12 +25,6 @@
             descricao: "Vem com a Sana, solicite-nos um orçamento.",
             link: "#services",
             imagem: "img/intro-carousel/3.jpg"
-        },
-        {
-            titulo: "LICENCIAMENTO AMBIENTAL",
-            descricao: "Vem com a Sana, solicite-nos um orçamento.",
-            link: "#services",
-            imagem: "img/intro-carousel/4.jpg"
         }
     ];
 
