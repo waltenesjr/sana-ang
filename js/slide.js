@@ -39,8 +39,8 @@
                                 "<h1>" + this.titulo + "</h1>" +
                                 "<p>" + this.descricao + "</p>" +
                                 "<a target=\"_blank\" href=\"https://whatsapp.sanambiental.com.br\" class=\"contato-rede-social\"><i class=\"fa fa-whatsapp\"></i></a>" +
-                                "<a target=\"_blank\" href=\"tel:+5562991140786\" class=\"contato-rede-social\"><i class=\"fa fa-phone\"></i></a>" +
-                                "<a target=\"_blank\" href=\"mailto:contato@sanambiental.com.br\" class=\"contato-rede-social\"><i class=\"fa fa-envelope-o\"></i></a>" +
+                                "<a href=\"tel:+5562991140786\" class=\"contato-rede-social\"><i class=\"fa fa-phone\"></i></a>" +
+                                "<a href=\"mailto:contato@sanambiental.com.br\" class=\"contato-rede-social\"><i class=\"fa fa-envelope-o\"></i></a>" +
                             "</div>" +
                         "</div>" +
                     "</div>" +
@@ -56,8 +56,8 @@
                                 "<h1>" + this.titulo + "</h1>" +
                                 "<p>" + this.descricao + "</p>" +
                                 "<a target=\"_blank\" href=\"https://whatsapp.sanambiental.com.br\" class=\"contato-rede-social\"><i class=\"fa fa-whatsapp\"></i></a>" +
-                                "<a target=\"_blank\" href=\"tel:+5562991140786\" class=\"contato-rede-social\"><i class=\"fa fa-phone\"></i></a>" +
-                                "<a target=\"_blank\" href=\"mailto:contato@sanambiental.com.br\" class=\"contato-rede-social\"><i class=\"fa fa-envelope-o\"></i></a>" +
+                                "<a href=\"tel:+5562991140786\" class=\"contato-rede-social\"><i class=\"fa fa-phone\"></i></a>" +
+                                "<a href=\"mailto:contato@sanambiental.com.br\" class=\"contato-rede-social\"><i class=\"fa fa-envelope-o\"></i></a>" +
                             "</div>" +
                         "</div>" +
                     "</div>" +
