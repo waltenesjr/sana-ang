@@ -271,7 +271,7 @@
 
     if (servicoParam === undefined) {
         $.each(slides, function () {
-            if (this.id == 22 || this.id == 10 || this.id == 10 || this.id == 19 || this.id == 21 || this.id == 11) {
+            if (this.id == 22 || this.id == 10 || this.id == 18 || this.id == 19 || this.id == 21 || this.id == 11) {
                 $("#servicos").append(
                     "<div class=\"col-lg-4 col-md-6 box wow bounceInUp\" data-wow-duration=\"1.4s\">" +
                     "<div class=\"icon\"><img src=\"" + this.imagem + "\"></div>" +
