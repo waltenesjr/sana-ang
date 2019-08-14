@@ -97,13 +97,13 @@
             imagem: "img/icon/mineracao.png"
         },
 
-        /*{
+        {
             id: "11",
-            titulo: "Monitoramento e Resgate de Fauna",
-            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat diam vitae rhoncus convallis. Vestibulum porttitor, leo vel varius luctus, purus sapien consectetur ipsum, sit amet aliquet enim nunc commodo nisl. Aenean dolor erat, ultrices non gravida sed, suscipit ut ex. Mauris pretium luctus lectus ut tristique. Praesent ornare finibus orci, a faucibus sapien hendrerit et. Proin non est porttitor velit tincidunt sagittis. Cras eget porta lectus, sed faucibus odio. Phasellus lobortis, nibh quis aliquam suscipit, lacus ex hendrerit ex, vel bibendum felis sapien sed massa. Sed sagittis diam nulla, ut volutpat mi efficitur eget. ",
-            link: "#services",
+            titulo: "MONITORAMENTO E RESGATE DE FAUNA ",
+            descricao: "",
+            link: "https://sanambiental.com.br/monitoramento-resgate-fauna.html",
             imagem: "img/icon/monitoramento-resgate-fauna.png"
-        },*/
+        },
 
         {
             id: "12",
@@ -168,21 +168,21 @@
             imagem: "img/icon/consultoria-agricola.png"
         },
 
-        /*{
+        {
             id: "18",
-            titulo: "Outorga",
-            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat diam vitae rhoncus convallis. Vestibulum porttitor, leo vel varius luctus, purus sapien consectetur ipsum, sit amet aliquet enim nunc commodo nisl. Aenean dolor erat, ultrices non gravida sed, suscipit ut ex. Mauris pretium luctus lectus ut tristique. Praesent ornare finibus orci, a faucibus sapien hendrerit et. Proin non est porttitor velit tincidunt sagittis. Cras eget porta lectus, sed faucibus odio. Phasellus lobortis, nibh quis aliquam suscipit, lacus ex hendrerit ex, vel bibendum felis sapien sed massa. Sed sagittis diam nulla, ut volutpat mi efficitur eget. ",
-            link: "#services",
+            titulo: "OUTORGA",
+            descricao: "",
+            link: "https://sanambiental.com.br/outorga.html",
             imagem: "img/icon/outorga.png"
-        },*/
+        },
 
-        /*{
+        {
             id: "19",
             titulo: "Engenharia Civil",
-            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat diam vitae rhoncus convallis. Vestibulum porttitor, leo vel varius luctus, purus sapien consectetur ipsum, sit amet aliquet enim nunc commodo nisl. Aenean dolor erat, ultrices non gravida sed, suscipit ut ex. Mauris pretium luctus lectus ut tristique. Praesent ornare finibus orci, a faucibus sapien hendrerit et. Proin non est porttitor velit tincidunt sagittis. Cras eget porta lectus, sed faucibus odio. Phasellus lobortis, nibh quis aliquam suscipit, lacus ex hendrerit ex, vel bibendum felis sapien sed massa. Sed sagittis diam nulla, ut volutpat mi efficitur eget. ",
-            link: "#services",
+            descricao: "",
+            link: "https://sanambiental.com.br/engenharia-civil.html",
             imagem: "img/icon/engenharia-civil.png"
-        },*/
+        },
 
         /*{
             id: "20",
@@ -192,21 +192,18 @@
             imagem: "img/icon/piscicultura.png"
         },*/
 
-        /*{
+        {
             id: "21",
-            titulo: "Execução de PRAD / Plantio de Mudas",
-            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat diam vitae rhoncus convallis. Vestibulum porttitor, leo vel varius luctus, purus sapien consectetur ipsum, sit amet aliquet enim nunc commodo nisl. Aenean dolor erat, ultrices non gravida sed, suscipit ut ex. Mauris pretium luctus lectus ut tristique. Praesent ornare finibus orci, a faucibus sapien hendrerit et. Proin non est porttitor velit tincidunt sagittis. Cras eget porta lectus, sed faucibus odio. Phasellus lobortis, nibh quis aliquam suscipit, lacus ex hendrerit ex, vel bibendum felis sapien sed massa. Sed sagittis diam nulla, ut volutpat mi efficitur eget. ",
-            link: "#services",
+            titulo: "EXECUÇÃO DE PRAD / PLANTIO DE MUDAS ",
+            descricao: "",
+            link: "https://sanambiental.com.br/execucao-prad.html",
             imagem: "img/icon/prad.png"
-        },*/
+        },
 
         {
             id: "22",
             titulo: "PLANO DE RECUPERAÇÃO DE ÁREAS DEGRADADAS (PRAD)",
-            descricao: "A SanAmbiental atual na elaboração e execução de PRAD, que é um instrumento de gestão ambiental, instituído pelo Decreto 97.632/89, e contém o " +
-                "planejamento das ações que objetivam o retorno do sítio degradado a uma forma de utilização, de acordo com um plano pré-estabelecido para o uso do solo, " +
-                "visando a obtenção da estabilidade do meio ambiente e ecológica. É relacionado à atividades que envolvem supressão vegetal, terraplenagem, exploração de " +
-                "jazidas, além da recuperação de APP (Área de Preservação Permanente) e de RL (Reserva Legal).",
+            descricao: "",
             link: "https://sanambiental.com.br/prad.html",
             imagem: "img/icon/recuperacao-area-degradada.png"
         },
@@ -274,7 +271,7 @@
 
     if (servicoParam === undefined) {
         $.each(slides, function () {
-            if (this.id == 22 || this.id == 10) {
+            if (this.id == 22 || this.id == 10 || this.id == 10 || this.id == 19 || this.id == 21 || this.id == 11) {
                 $("#servicos").append(
                     "<div class=\"col-lg-4 col-md-6 box wow bounceInUp\" data-wow-duration=\"1.4s\">" +
                     "<div class=\"icon\"><img src=\"" + this.imagem + "\"></div>" +
@@ -306,7 +303,7 @@
                     "<p align='justify'>" + this.descricao + "</p>" +
                     "<br>" +
                     "<div class='text-center'>" +
-                        "<a class=\"botao-voltar\" href=\"" + url + "index.html#services\">Voltar</a>" +
+                        "<a class=\"botao-voltar\" href=\"" + url + "index.html#services\">Página Inicial</a>" +
                         "<br><br>" +
                         "<a target=\"_blank\" href=\"https://whatsapp.sanambiental.com.br\" class=\"contato-rede-social\"><i style=\"color: #35633e\" class=\"fa fa-whatsapp\"></i></a>" +
                         "<a target=\"_blank\" href=\"tel:+5562991140786\" class=\"contato-rede-social\"><i style=\"color: #35633e\" class=\"fa fa-phone\"></i></a>" +
