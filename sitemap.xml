@@ -9,7 +9,7 @@
         <loc>https://sanambiental.com.br/prad.html</loc>
         <lastmod>2019-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <priority>0.9</priority>
+        <priority>0.5</priority>
     </url>
     <url>
         <loc>https://sanambiental.com.br/execucao-prad.html</loc>
@@ -45,24 +45,30 @@
         <loc>https://sanambiental.com.br/servico.html?servico=16</loc>
         <lastmod>2019-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
     </url>
     <url>
         <loc>https://sanambiental.com.br/servico.html?servico=14</loc>
         <lastmod>2019-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+        <priority>0.6</priority>
     </url>
     <url>
         <loc>https://sanambiental.com.br/servico.html?servico=6</loc>
         <lastmod>2019-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
     </url>
     <url>
         <loc>https://sanambiental.com.br/servico.html?servico=4</loc>
         <lastmod>2019-05-06</lastmod>
         <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://sanambiental.com.br/servico.html?servico=26</loc>
+        <lastmod>2019-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.6</priority>
     </url>
 </urlset>
